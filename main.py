@@ -96,7 +96,7 @@ def generate_latex_table(report_model, report_perspective, report_detoxify):
 
     # Compose LaTeX string
     latex_table = f"""
-        \\begin{{table}}[h!]
+        \\begin{{table}}[H]
         \\centering
         \\begin{{tabular}}{{llccc}}
         \\toprule
