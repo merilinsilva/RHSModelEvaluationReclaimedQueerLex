@@ -102,15 +102,15 @@ def generate_latex_table(report_model, report_perspective, report_detoxify):
         \\toprule
         \\textbf{{Model}} & \\textbf{{Class}} & \\textbf{{Precision}} & \\textbf{{Recall}} & \\textbf{{F1 Score}} \\\\
         \\midrule
-        \\multirow{{Detoxify}} 
+        \\multirow{{2}{{*}}}{{Detoxify}} 
             & non-hate & {d_non_p} & {d_non_r} & {d_non_f1} \\\\
             & hate     & {d_hate_p} & {d_hate_r} & {d_hate_f1} \\\\
         \\midrule
-        \\multirow{{Perspective}} 
+        \\multirow{{2}{{*}}}{{Perspective}} 
             & non-hate & {p_non_p} & {p_non_r} & {p_non_f1} \\\\
             & hate     & {p_hate_p} & {p_hate_r} & {p_hate_f1} \\\\
         \\midrule
-        \\multirow{{RHS Model}} 
+        \\multirow{{2}{{*}}}{{RHS Model}} 
             & non-hate & {m_non_p} & {m_non_r} & {m_non_f1} \\\\
             & hate     & {m_hate_p} & {m_hate_r} & {m_hate_f1} \\\\
         \\bottomrule
