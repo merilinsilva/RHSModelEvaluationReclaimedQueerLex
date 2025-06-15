@@ -1,0 +1,24 @@
+
+        \begin{table}[h!]
+        \centering
+        \begin{tabular}{llccc}
+        \toprule
+        \textbf{Model} & \textbf{Class} & \textbf{Precision} & \textbf{Recall} & \textbf{F1 Score} \\
+        \midrule
+        \multirow{2}{*}{Detoxify} 
+            & non-hate & 0.90 & 0.51 & 0.65 \\
+            & hate     & 0.22 & 0.72 & 0.33 \\
+        \midrule
+        \multirow{2}{*}{Perspective} 
+            & non-hate & 0.93 & 0.57 & 0.71 \\
+            & hate     & 0.25 & 0.77 & 0.38 \\
+        \midrule
+        \multirow{2}{*}{\textbf{RHS Model}} 
+            & non-hate & 0.91 & 0.68 & 0.78 \\
+            & hate     & 0.28 & 0.65 & 0.39 \\
+        \bottomrule
+        \end{tabular}
+        \caption{Precision, Recall, and F1 scores for hate and non-hate classes across Detoxify, Perspective, and RHS models on HARMFUL\_IN classification.}
+        \label{tab:performance_comparison}
+        \end{table}
+        
